@@ -6,15 +6,15 @@ export const Container = styled.div`
     align-items:center;
     flex-direction:column;
     background: ${props => props.grey ? '#f6f6f6' : props.dark ? '#23272a' : '#fff'};
-    padding-top:${props => props.firstTile ? '130px' : props.footer ? '80px' : ''};
+    padding-top:${props => props.firstTile ? '0' : props.footer ? '80px' : ''};
     padding-bottom:${props => props.lastTile ? '60px' : ''};
 
     @media (min-width: 768px) and (max-width:1024px){
-        padding-top:${props => props.firstTile ? '80px' : ''};
+        padding-top:${props => props.firstTile ? '70px' : ''};
     }
 
     @media (min-width: 1024px){
-        padding-top:${props => props.firstTile ? '120px' : ''};
+        padding-top:${props => props.firstTile ? '80px' : ''};
     }
 `
 
