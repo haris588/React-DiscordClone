@@ -3,7 +3,7 @@ import styled from "styled-components"
 export const H1 = styled.h1`
     font-family: 'Helvetica';
     font-weight: 800;
-    font-size: clamp(24px,5vw,44px);
+    font-size: clamp(32px,5vw,44px);
     line-height: 95%;
     text-transform: uppercase;
 
