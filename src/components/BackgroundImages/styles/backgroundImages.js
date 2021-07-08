@@ -27,8 +27,8 @@ export const ImageLeft = styled.img`
     z-index:5;
     bottom:0;
 
-    @media (max-width: 320px){
-        max-width: 180px;
+    @media (max-width: 360px){
+        max-width: 190px;
         left:-2em;
     }
 
