@@ -10,23 +10,23 @@ export function FooterContainer() {
                         imagine a place
                     </Typo.H4>
                     <InfoBox.Language>
-                        <img style={{ height: '16px', width: '24px', marginRight: '8px' }} src="us.png" alt=""  />
+                        <img style={{ height: '16px', width: '24px', marginRight: '8px' }} src="us.png" alt="" />
                         <Typo.Text textSmall>
                             English, USA
                         </Typo.Text>
                     </InfoBox.Language>
                     <InfoBox.Social>
                         <Typo.Link href="#">
-                            <InfoBox.SocialIcon src="twitter.svg" />
+                            <InfoBox.SocialIcon src="twitter.svg" alt="" />
                         </Typo.Link>
                         <Typo.Link href="#">
-                            <InfoBox.SocialIcon src="insta.svg" />
+                            <InfoBox.SocialIcon src="insta.svg" alt="" />
                         </Typo.Link>
                         <Typo.Link href="#">
-                            <InfoBox.SocialIcon src="fb.svg" />
+                            <InfoBox.SocialIcon src="fb.svg" alt="" />
                         </Typo.Link>
                         <Typo.Link href="#">
-                            <InfoBox.SocialIcon src="yt.svg" />
+                            <InfoBox.SocialIcon src="yt.svg" alt="" />
                         </Typo.Link>
                     </InfoBox.Social>
                 </InfoBox>
@@ -152,9 +152,9 @@ export function FooterContainer() {
                     </Typo.Link>
                 </RouteSection>
             </Grid.Row>
-            
+
             <Grid.Row>
-            <Grid.Seperator />
+                <Grid.Seperator />
                 <Grid.Group>
                     <Typo.Link href="#"><img src="logodark.png" alt="" /></Typo.Link>
                     <Buttons buttonSmall buttonBrand href="#">

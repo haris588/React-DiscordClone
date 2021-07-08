@@ -39,6 +39,7 @@ export function MobileHeaderContainer() {
 
                         </> : null
                     }
+
                     <Nav.Panel isVisible={visible} >
                         <Nav>
                             <Nav.Group>
@@ -87,6 +88,5 @@ export function MobileHeaderContainer() {
                 </Nav>
             </Grid.Row>
         </Grid>
-
     )
 }

@@ -39,7 +39,7 @@ export function FeatureContainer() {
 
             <Grid>
                 <Grid.Row container isVisible={visible3} isInvis={!visible3}>
-                    <Feature.Image src="6.svg" alt=""  />
+                    <Feature.Image src="6.svg" alt="" />
                     <Feature.Group>
                         <Typo.H2>
                             From few to a fandom
@@ -71,9 +71,9 @@ export function FeatureContainer() {
                         <Feature.Sparkles>
                             <img src="sparkles.svg" alt="" />
                         </Feature.Sparkles>
-                        <Typo.H4>
+                        <Typo.H3>
                             Ready to start your journey?
-                        </Typo.H4>
+                        </Typo.H3>
                         <Buttons buttonLarge buttonBrand downloadButton href="#">
                             {window.innerHeight > window.innerWidth ? 'Download from Google Play' : 'Download for Windows'}
                         </Buttons>

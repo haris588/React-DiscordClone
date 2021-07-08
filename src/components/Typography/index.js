@@ -1,5 +1,5 @@
 import React from 'react'
-import { H1, H2, H4, H5, Text, Link } from './styles/typography'
+import { H1, H2, H3, H4, H5, Text, Link } from './styles/typography'
 
 export default function Typo({ children }) {
     return (
@@ -16,6 +16,12 @@ Typo.H1 = function TypoH1({ children, ...restProps }) {
 Typo.H2 = function TypoH2({ children, ...restProps }) {
     return (
         <H2 {...restProps}>{children}</H2>
+    )
+}
+
+Typo.H3 = function TypoH3({ children, ...restProps }) {
+    return (
+        <H3 {...restProps}>{children}</H3>
     )
 }
 

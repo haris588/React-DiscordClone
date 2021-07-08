@@ -22,6 +22,12 @@ export const H2 = styled.h2`
         font-size: 42px;
     }
 `
+export const H3 = styled.h3`
+    font-family: 'Helvetica';
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 110%;
+`
 
 export const H4 = styled.h4`
     font-family: 'Helvetica';
@@ -43,6 +49,7 @@ export const Text = styled.div`
     font-family: 'Arial';
     margin-top: ${props => props.heroSubtitle ? '40px' : props.subtitle ? '24px' : ''};
     color: ${props => props.colHeader ? '#5865f2' : ''};
+    font-weight: ${props => props.colHeader ? '700;' : ''};
 
     @media (min-width: 1024px){
         ${props => props.textMedium ? 'font-size: 20px;' : ''}
