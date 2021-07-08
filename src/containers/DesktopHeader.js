@@ -8,7 +8,7 @@ export function DesktopHeaderContainer() {
                 <Nav>
                     <Nav.Group>
                         <Typo.Link>
-                            <Nav.Logo src="logo.png" alt="" href="#"/>
+                            <Nav.Logo src="logo.png" alt="Discord" href="#"/>
                         </Typo.Link>
                     </Nav.Group>
                     <Nav.Group>

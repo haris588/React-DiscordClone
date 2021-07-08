@@ -23,7 +23,7 @@ export function MobileHeaderContainer() {
                 <Nav>
                     <Nav.Group>
                         <Typo.Link>
-                            <Nav.Logo src="logo.png" alt="" />
+                            <Nav.Logo src="logo.png" alt="Discord" href="#" />
                         </Typo.Link>
                     </Nav.Group>
 

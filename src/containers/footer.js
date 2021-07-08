@@ -17,16 +17,16 @@ export function FooterContainer() {
                     </InfoBox.Language>
                     <InfoBox.Social>
                         <Typo.Link href="#">
-                            <InfoBox.SocialIcon src="twitter.svg" alt="" />
+                            <InfoBox.SocialIcon src="twitter.svg" alt="Twitter" />
                         </Typo.Link>
                         <Typo.Link href="#">
-                            <InfoBox.SocialIcon src="insta.svg" alt="" />
+                            <InfoBox.SocialIcon src="insta.svg" alt="Instagram" />
                         </Typo.Link>
                         <Typo.Link href="#">
-                            <InfoBox.SocialIcon src="fb.svg" alt="" />
+                            <InfoBox.SocialIcon src="fb.svg" alt="Facebook" />
                         </Typo.Link>
                         <Typo.Link href="#">
-                            <InfoBox.SocialIcon src="yt.svg" alt="" />
+                            <InfoBox.SocialIcon src="yt.svg" alt="Youtube" />
                         </Typo.Link>
                     </InfoBox.Social>
                 </InfoBox>
@@ -156,7 +156,7 @@ export function FooterContainer() {
             <Grid.Row>
                 <Grid.Seperator />
                 <Grid.Group>
-                    <Typo.Link href="#"><img src="logodark.png" alt="" /></Typo.Link>
+                    <Typo.Link href="#"><img src="logodark.png" alt="Discord" /></Typo.Link>
                     <Buttons buttonSmall buttonBrand href="#">
                         Sign up
                     </Buttons>
