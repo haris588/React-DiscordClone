@@ -44,11 +44,11 @@ export function MobileHeaderContainer() {
                         <Nav>
                             <Nav.Group>
                                 <Typo.Link>
-                                    <Nav.Logo src="mobilelogo.png" alt="" />
+                                    <Nav.Logo src="mobilelogo.png" alt="Discord" href="#" />
                                 </Typo.Link>
                             </Nav.Group>
                             <Buttons closeButton onClick={handleVisibility}>
-                                <img src="close.svg" alt="" />
+                                <img src="close.svg" alt="" href="#" />
                             </Buttons>
                         </Nav>
 
