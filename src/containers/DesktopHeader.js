@@ -7,8 +7,8 @@ export function DesktopHeaderContainer() {
             <Grid.Row header>
                 <Nav>
                     <Nav.Group>
-                        <Typo.Link>
-                            <Nav.Logo src="logo.png" alt="Discord" href="#"/>
+                        <Typo.Link href="#" >
+                            <Nav.Logo src="logo.png" alt="Discord" />
                         </Typo.Link>
                     </Nav.Group>
                     <Nav.Group>

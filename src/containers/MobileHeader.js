@@ -22,14 +22,14 @@ export function MobileHeaderContainer() {
             <Grid.Row >
                 <Nav>
                     <Nav.Group>
-                        <Typo.Link>
-                            <Nav.Logo src="logo.png" alt="Discord" href="#" />
+                        <Typo.Link href="#" >
+                            <Nav.Logo src="logo.png" alt="Discord" />
                         </Typo.Link>
                     </Nav.Group>
 
                     <Nav.Group>
                         <Buttons navButton href="#" onClick={handleVisibility}>
-                            <img src="hamburger.svg" alt=""  />
+                            <img src="hamburger.svg" alt="menu"  />
                         </Buttons>
                     </Nav.Group>
 
@@ -43,12 +43,12 @@ export function MobileHeaderContainer() {
                     <Nav.Panel isVisible={visible} >
                         <Nav>
                             <Nav.Group>
-                                <Typo.Link>
-                                    <Nav.Logo src="mobilelogo.png" alt="Discord" href="#" />
+                                <Typo.Link href="#" >
+                                    <Nav.Logo src="mobilelogo.png" alt="Discord"  />
                                 </Typo.Link>
                             </Nav.Group>
-                            <Buttons closeButton onClick={handleVisibility}>
-                                <img src="close.svg" alt="" href="#" />
+                            <Buttons closeButton onClick={handleVisibility} href="#" >
+                                <img src="close.svg" alt="close menu"  />
                             </Buttons>
                         </Nav>
 
