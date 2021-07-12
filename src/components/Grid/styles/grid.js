@@ -6,7 +6,7 @@ export const Container = styled.div`
     align-items:center;
     flex-direction:column;
     background: ${props => props.grey ? '#f6f6f6' : props.dark ? '#23272a' : '#fff'};
-    padding-top:${props => props.firstTile ? '47px' : ''};
+    padding-top:${props => props.firstTile ? '47px' : props.footer ? '80px' : ''};
     padding-bottom:${props => props.lastTile ? '60px' : ''};
     
     ${props => props.mobile ? `
