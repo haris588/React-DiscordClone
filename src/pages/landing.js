@@ -14,7 +14,8 @@ export function Landing() {
     return (
         <div onLoad={handleVisibile} style={{overflow: 'hidden'}}>
             <BackgroundImagesContainer />
-            {window.innerHeight > window.innerWidth ? <MobileHeaderContainer /> : <DesktopHeaderContainer />}
+            <MobileHeaderContainer />
+            <DesktopHeaderContainer />
             <HeroContainer />
             <FeatureContainer />
             <FooterContainer />

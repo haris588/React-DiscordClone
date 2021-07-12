@@ -18,7 +18,7 @@ export function MobileHeaderContainer() {
     }
 
     return (
-        <Grid>
+        <Grid mobile>
             <Grid.Row >
                 <Nav>
                     <Nav.Group>

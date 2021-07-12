@@ -3,7 +3,7 @@ import { Grid, Nav, Typo, Buttons } from '../components/exports'
 
 export function DesktopHeaderContainer() {
     return (
-        <Grid>
+        <Grid desktop>
             <Grid.Row header>
                 <Nav>
                     <Nav.Group>

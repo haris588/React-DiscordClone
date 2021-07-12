@@ -14,12 +14,9 @@ export function HeroContainer() {
                     </Typo.Text>
                     <Hero.HeroButtons>
                         <Buttons href="#" twoButtons downloadButton buttonLarge buttonWhite >
-                            {window.innerHeight > window.innerWidth ? 'Download from Google Play' : 'Download for Windows'}
+                            {window.innerWidth < 1024 ? 'Download from Google Play' : 'Download for Windows'}
                         </Buttons>
-
-                        {window.innerHeight > window.innerWidth ? null : <Buttons href="#"  openButton buttonLarge buttonDark>
-                            Open Discord in your browser
-                        </Buttons>}
+                        { window.innerWidth < 1024 ? null : <Buttons href="#" openButton buttonLarge buttonDark> Open Discord in your browser </Buttons>}
                     </Hero.HeroButtons>
 
                 </Hero>
