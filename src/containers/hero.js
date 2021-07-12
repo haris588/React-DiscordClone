@@ -18,7 +18,6 @@ export function HeroContainer() {
                         </Buttons>
                         {window.innerWidth < 1024 ? null : <Buttons href="#" openButton buttonLarge buttonDark> <Typo.Text textSmall>Open Discord in your browser</Typo.Text> </Buttons>}
                     </Hero.HeroButtons>
-
                 </Hero>
             </Grid.Row>
         </Grid >

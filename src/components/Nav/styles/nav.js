@@ -8,6 +8,7 @@ export const Container = styled.nav`
     align-items:center;
     color:#fff;
     z-index: 500;
+    position:relative;
 `
 
 export const Group = styled.div`
@@ -16,7 +17,7 @@ export const Group = styled.div`
     font-size:16px;
     line-height:140%;
     font-weight:600;
-
+    
 `
 
 export const Logo = styled.img`
@@ -40,8 +41,6 @@ export const Backdrop = styled.div`
     background:rgba(0,0,0,.3);
     z-index:9999;
     opacity:1;
- 
-    
 `
 
 export const Panel = styled.div`
@@ -54,6 +53,7 @@ export const Panel = styled.div`
     top: 0; 
     right: 0;
     bottom: 0;
+   
     width: 330px;
     transform: translate(400px);
     z-index: 9999;
@@ -62,4 +62,22 @@ export const Panel = styled.div`
     flex-direction:column;
     opacity: 0;
     ${props => props.isVisible ? 'transform: translate(0); opacity:1;' : ''}
+`
+
+export const Footer = styled.footer`
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    height:120px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+`
+
+export const ButtonWrapper = styled.div`
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    padding: 24px;
 `

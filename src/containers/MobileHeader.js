@@ -7,7 +7,7 @@ export function MobileHeaderContainer() {
 
     const handleVisibility = () => {
         setVisible(!visible)
-        
+
         if (!visible) {
             document.body.style.overflow = 'hidden';
         }
@@ -29,7 +29,7 @@ export function MobileHeaderContainer() {
 
                     <Nav.Group>
                         <Buttons navButton href="#" onClick={handleVisibility}>
-                            <img src="hamburger.svg" alt="menu"  />
+                            <img src="hamburger.svg" alt="menu" />
                         </Buttons>
                     </Nav.Group>
 
@@ -44,11 +44,11 @@ export function MobileHeaderContainer() {
                         <Nav>
                             <Nav.Group>
                                 <Typo.Link href="#" >
-                                    <Nav.Logo src="mobilelogo.png" alt="Discord"  />
+                                    <Nav.Logo src="mobilelogo.png" alt="Discord" />
                                 </Typo.Link>
                             </Nav.Group>
                             <Buttons closeButton onClick={handleVisibility} href="#" >
-                                <img src="close.svg" alt="close menu"  />
+                                <img src="close.svg" alt="close menu" />
                             </Buttons>
                         </Nav>
 
@@ -84,9 +84,20 @@ export function MobileHeaderContainer() {
                                 Support
                             </Typo.Text>
                         </Typo.Link>
+
+                        <Nav.Footer>
+                            <Nav.ButtonWrapper>
+                                <Buttons href="#" downloadButton buttonSmall buttonBrand >
+                                    <Typo.Text> Download from Google Play </Typo.Text>
+                                </Buttons>
+                            </Nav.ButtonWrapper>
+                        </Nav.Footer>
+
                     </Nav.Panel>
                 </Nav>
             </Grid.Row>
+
         </Grid>
+
     )
 }

@@ -21,9 +21,6 @@ export const Container = styled.div`
     @media (min-width: 1024px){
         padding-top: ${props => props.firstTile ? '80px' : ''};
     }
-
-   
-  
 `
 
 export const Row = styled.div`

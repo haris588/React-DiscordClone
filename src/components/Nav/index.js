@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Group, Logo, Backdrop, Panel, Spacer } from './styles/nav'
+import { Container, Group, Logo, Backdrop, Panel, Spacer, Footer, ButtonWrapper } from './styles/nav'
 
 export default function Nav({ children, ...restProps }) {
     return (
@@ -36,4 +36,17 @@ Nav.Spacer = function NavSpacer({...restProps }) {
         <Spacer {...restProps}/>
     )
 }
+
+Nav.Footer = function NavFooter({ children, ...restProps }) {
+    return (
+        <Footer {...restProps}>{children}</Footer>
+    )
+}
+
+Nav.ButtonWrapper = function NavButtonWrapper({ children, ...restProps }) {
+    return (
+        <ButtonWrapper {...restProps}>{children}</ButtonWrapper>
+    )
+}
+
 

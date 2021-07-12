@@ -6,6 +6,7 @@ export const Button = styled.a`
     font-weight: 500;
     display:inline-flex;
     align-items:center;
+    justify-content:center;
     text-decoration:none;
     transition: background .4s ease, box-shadow .4s ease;
 
@@ -22,7 +23,7 @@ export const Button = styled.a`
 
     ${props => props.twoButtons ? `
         margin-right: 24px;
-        `:''};
+        `: ''};
 
     ${props => props.buttonSmall ? `
         border-radius: 40px;
@@ -36,18 +37,18 @@ export const Button = styled.a`
 
     ${props => props.closeButton ? `
         position: absolute;
-        top:24px;
-        right:24px;
-        margin:-8px;
+        top:10px;
+        right:-10px;
+        margin:-16px;
         padding: 8px;
         z-index:10000;
         line-height: 0;
     
     ` : props.navButton ? `
         position: relative;
-        top:2px;
+        top:4px;
         right:4px;
-        margin:-16px;
+        margin: -15px;
         padding: 8px;
         z-index:9999;
         line-height: 0;
@@ -56,13 +57,13 @@ export const Button = styled.a`
     ${props => props.buttonWhite ? `
         background: #fff;
         color: #23272a;
-        ` : 
+        ` :
         props.buttonDark ? `
         background: #23272a;
         color: #fff;
-        ` : 
-    
-        props.buttonBrand ? `
+        ` :
+
+            props.buttonBrand ? `
         background: #5865f2;
         color: #fff;
         ` : ''};
