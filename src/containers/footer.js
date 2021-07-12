@@ -156,7 +156,7 @@ export function FooterContainer() {
             <Grid.Row>
                 <Grid.Seperator />
                 <Grid.Group>
-                    <Typo.Link href="#"><img src="logodark.png" alt="Discord" /></Typo.Link>
+                    <Typo.Link href="#"><img src="logodark1.png" alt="Discord" /></Typo.Link>
                     <Buttons buttonSmall buttonBrand href="#">
                         Sign up
                     </Buttons>
