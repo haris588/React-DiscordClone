@@ -7,7 +7,7 @@ export const Container = styled.div`
     flex-direction:column;
     background: ${props => props.grey ? '#f6f6f6' : props.dark ? '#23272a' : '#fff'};
     padding-top:${props => props.firstTile ? '47px' : props.footer ? '80px' : ''};
-    padding-bottom:${props => props.lastTile ? '80px' : ''};
+    padding-bottom:${props => props.lastTile ? '60px' : ''};
     
     ${props => props.mobile ? `
     @media (min-width:1024px){
@@ -23,7 +23,7 @@ export const Container = styled.div`
     }
 
     @media (min-width: 400px) and (max-width: 780px){
-        padding-top: ${props => props.firstTile ? '155px' : ''};
+        padding-top: ${props => props.firstTile ? '210px' : ''};
     }
   
 `
