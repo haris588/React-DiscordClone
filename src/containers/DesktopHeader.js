@@ -5,7 +5,7 @@ export function DesktopHeaderContainer() {
     return (
         <Grid desktop>
             <Grid.Row header>
-                <Nav>
+                <Nav desktop>
                     <Nav.Group>
                         <Typo.Link href="#" >
                             <Nav.Logo src="logo.png" alt="Discord" />
@@ -13,16 +13,24 @@ export function DesktopHeaderContainer() {
                     </Nav.Group>
                     <Nav.Group>
                         <Typo.Link href="#" navLink>
-                            Download
+                            <Typo.Text textSmall>
+                                Download
+                            </Typo.Text>
                         </Typo.Link>
                         <Typo.Link href="#" navLink>
-                            Nitro
+                            <Typo.Text textSmall>
+                                Nitro
+                            </Typo.Text>
                         </Typo.Link>
                         <Typo.Link href="#" navLink>
-                            Safety
+                            <Typo.Text textSmall>
+                                Safety
+                            </Typo.Text>
                         </Typo.Link>
                         <Typo.Link href="#" navLink>
-                            Support
+                            <Typo.Text textSmall>
+                                Support
+                            </Typo.Text>
                         </Typo.Link>
                     </Nav.Group>
                     <Nav.Group>

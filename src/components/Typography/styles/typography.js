@@ -57,7 +57,8 @@ export const Text = styled.div`
 `
 
 export const Link = styled.a`
-    ${props => props.navLink ? 'margin: 10px; padding: 10px;' : 'display:block; margin-top: 8px;'};
+    ${props => props.navLink ? 'margin: 10px; padding:10px;' : 'display:block; margin-top: 8px;'};
+    ${props => props.mobileNavLink ? 'margin: 0; padding:8px;' : 'display:block; margin-top: 4px;'};
     color: ${props => props.dark ? '#23272a' : '#fff'};
     text-decoration: none;
     cursor: pointer;

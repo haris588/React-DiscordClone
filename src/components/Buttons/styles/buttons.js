@@ -37,18 +37,18 @@ export const Button = styled.a`
 
     ${props => props.closeButton ? `
         position: absolute;
-        top:10px;
-        right:-10px;
-        margin:-16px;
+        top:7px;
+        right:-30px;
+        margin:0;
         padding: 8px;
         z-index:10000;
         line-height: 0;
     
     ` : props.navButton ? `
         position: relative;
-        top:4px;
-        right:4px;
-        margin: -15px;
+        top:0;
+        right:0;
+        margin:0;
         padding: 8px;
         z-index:9999;
         line-height: 0;

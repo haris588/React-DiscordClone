@@ -7,29 +7,34 @@ export const Container = styled.nav`
     justify-content:space-between;
     align-items:center;
     color:#fff;
-    z-index: 500;
     position:relative;
+    z-index: 500;
+    ${props => props.desktop ? 'padding: 16px 0;' : ''}
 `
 
 export const Group = styled.div`
     display:flex;
-    text-align:center;
-    font-size:16px;
-    line-height:140%;
     font-weight:600;
-    
+
+    ${props => props.mobileNavGroup ? ` 
+    flex-direction:column;
+    overflow-y:scroll;
+ 
+     
+     `  : ''}
 `
 
 export const Logo = styled.img`
     max-width:100%;
+    object-fit:contain;
 `
 
 export const Spacer = styled.div`
     width:100%;
-    height:1px;
+    padding:1px;
     background:#ebedef;
-    margin-top:24px;
-    margin-bottom:16px;
+    margin-top:22px;
+    margin-bottom:22px;
 `
 
 export const Backdrop = styled.div`
@@ -44,16 +49,15 @@ export const Backdrop = styled.div`
 `
 
 export const Panel = styled.div`
-    background:#fff;
-    border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;
-    padding: 24px 48px 120px 24px;
-    overflow-y: scroll;
     position: fixed;
     top: 0; 
     right: 0;
     bottom: 0;
-   
+    background:#fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 24px 48px 80px 24px;
+    overflow:hidden;
     width: 330px;
     transform: translate(400px);
     z-index: 9999;
@@ -73,11 +77,13 @@ export const Footer = styled.footer`
     display:flex;
     flex-direction: column;
     justify-content:flex-end;
+   
 `
 
 export const ButtonWrapper = styled.div`
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
-    padding: 24px;
+    padding: 12px;
+  
 `

@@ -54,37 +54,38 @@ export function MobileHeaderContainer() {
 
                         <Nav.Spacer />
 
-                        <Typo.Link href="#" navLink dark>
-                            <Typo.Text>
-                                Home
-                            </Typo.Text>
-                        </Typo.Link>
-                        <Typo.Link href="#" navLink dark>
-                            <Typo.Text>
-                                Download
-                            </Typo.Text>
-                        </Typo.Link>
-                        <Typo.Link href="#" navLink dark>
-                            <Typo.Text>
-                                Nitro
-                            </Typo.Text>
-                        </Typo.Link>
-                        <Typo.Link href="#" navLink dark>
-                            <Typo.Text>
-                                Safety
-                            </Typo.Text>
-                        </Typo.Link>
-                        <Typo.Link href="#" navLink dark>
-                            <Typo.Text>
-                                Mod Academy
-                            </Typo.Text>
-                        </Typo.Link>
-                        <Typo.Link href="#" navLink dark>
-                            <Typo.Text>
-                                Support
-                            </Typo.Text>
-                        </Typo.Link>
-
+                        <Nav.Group mobileNavGroup>
+                            <Typo.Link href="#" mobileNavLink dark>
+                                <Typo.Text textSmall>
+                                    Home
+                                </Typo.Text>
+                            </Typo.Link>
+                            <Typo.Link href="#" mobileNavLink dark>
+                                <Typo.Text textSmall>
+                                    Download
+                                </Typo.Text>
+                            </Typo.Link>
+                            <Typo.Link href="#" mobileNavLink dark>
+                                <Typo.Text textSmall>
+                                    Nitro
+                                </Typo.Text>
+                            </Typo.Link>
+                            <Typo.Link href="#" mobileNavLink dark>
+                                <Typo.Text textSmall>
+                                    Safety
+                                </Typo.Text>
+                            </Typo.Link>
+                            <Typo.Link href="#" mobileNavLink dark>
+                                <Typo.Text textSmall>
+                                    Mod Academy
+                                </Typo.Text>
+                            </Typo.Link>
+                            <Typo.Link href="#" mobileNavLink dark>
+                                <Typo.Text textSmall>
+                                    Support
+                                </Typo.Text>
+                            </Typo.Link>
+                        </Nav.Group>
                         <Nav.Footer>
                             <Nav.ButtonWrapper>
                                 <Buttons href="#" downloadButton buttonSmall buttonBrand >
