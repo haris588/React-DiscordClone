@@ -75,7 +75,7 @@ export function FeatureContainer() {
                             Ready to start your journey?
                         </Typo.H3>
                         <Buttons buttonLarge buttonBrand downloadButton href="#">
-                            {window.innerHeight > window.innerWidth ? 'Download from Google Play' : 'Download for Windows'}
+                        {window.innerWidth < 1024 ? <Typo.Text textSmall>Download from Google Play</Typo.Text> : <Typo.Text textSmall>Download for Windows</Typo.Text>}
                         </Buttons>
                     </Feature.Group>
                 </Grid.Row>
